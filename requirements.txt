@@ -1,5 +1,5 @@
 streamlit
 pandas
-yagmail
-keyring
+sendgrid
 reportlab
+python-dotenv
