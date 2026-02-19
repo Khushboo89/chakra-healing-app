@@ -1,28 +1,9 @@
-# 🌿 Chakra Healing App
+# Chakra Healing Web App
 
-A Streamlit-based chakra healing registration app that sends secure access details via SendGrid email.
+## Streamlit Secrets Required
 
-## 🚀 Features
-- Free SendGrid email integration
-- Secure password generation
-- Streamlit Cloud compatible
-- No SMTP required
+Add in Streamlit Cloud:
 
-## 🔐 Secrets Setup (Streamlit Cloud)
-
-Add the following in **App → Settings → Secrets**:
-
-```toml
-SENDGRID_API_KEY = "SG_xxxxxxxxxxxxx"
-FROM_EMAIL = "youremailaddress@gmail.com"
-
-
-## Local Setup
-pip install -r requirements.txt
-streamlit run app.py
-
-## Deployment
-Deploy easily on Streamlit Cloud by adding secrets.
-
-## Disclaimer
-For spiritual and wellness purposes only.
+SENDGRID_API_KEY = "YOUR_SENDGRID_API_KEY"
+FROM_EMAIL = "your_verified_sender@gmail.com"
+HEALER_EMAIL = "your_healer_email@gmail.com"
