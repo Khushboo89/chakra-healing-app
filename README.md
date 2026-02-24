@@ -1,9 +1,15 @@
-# Chakra Healing Web App
+# Chakra Healing Energy Portal
 
-## Streamlit Secrets Required
+Premium Chakra Assessment Web App built with Streamlit.
 
-Add in Streamlit Cloud:
+## Features
+- 7 Chakra Assessment
+- Branded PDF Report
+- Email Support (SendGrid)
+- Downloadable Report
 
-SENDGRID_API_KEY = "YOUR_SENDGRID_API_KEY"
-FROM_EMAIL = "your_verified_sender@gmail.com"
-HEALER_EMAIL = "your_healer_email@gmail.com"
+## Deployment
+Deploy on Streamlit Cloud and add secrets:
+SENDGRID_API_KEY
+FROM_EMAIL
+HEALER_EMAIL
